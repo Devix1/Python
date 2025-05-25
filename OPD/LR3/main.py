@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Моковые курсы валют
+
 mock_rates = {
     'USD': {'EUR': 0.92, 'RUB': 90.0},
     'EUR': {'USD': 1.09, 'RUB': 97.0},
